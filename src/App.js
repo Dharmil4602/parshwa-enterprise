@@ -13,10 +13,42 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Body />}/>
-          <Route exact path="/products" element={<Product />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route
+            exact
+            path="/"
+            element={
+              <div className="container">
+                <Body />
+              </div>
+            }
+          />
+          <Route
+            exact
+            path="/products"
+            element={
+              <div className="container">
+                <Product />
+              </div>
+            }
+          />
+          <Route
+            exact
+            path="/about"
+            element={
+              <div className="container">
+                <About />
+              </div>
+            }
+          />
+          <Route
+            exact
+            path="/contact"
+            element={
+              <div className="container">
+                <Contact />
+              </div>
+            }
+          />
         </Routes>
       </Router>
     </>
