@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import ProductDetail from './ProductDetail';
 
 function ProductItem(props) {
   return (
