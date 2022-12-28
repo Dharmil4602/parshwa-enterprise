@@ -12,7 +12,7 @@ function Navbar() {
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
           </div>
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-12">
+            <ul className="ul navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/products">
                   Products
@@ -21,6 +21,11 @@ function Navbar() {
               <li className="nav-item">
                 <a className="nav-link" href="/about">
                   About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">
+                  Contact Us
                 </a>
               </li>
             </ul>
