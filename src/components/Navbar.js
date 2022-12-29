@@ -38,7 +38,7 @@ function Navbar() {
             </li>
             <button className="btn btn-primary">
               <a
-                href="tel:9408142926"
+                href="tel:9082184650"
                 className="text-white text-decoration-none"
               >
                 Call
