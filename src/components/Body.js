@@ -2,8 +2,8 @@ import React from 'react'
 
 function Body() {
   return (
-    <div>Welcome to body</div>
-  )
+    <div>Welcome to Body</div>
+  );
 }
 
 export default Body

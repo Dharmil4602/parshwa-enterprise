@@ -5,6 +5,19 @@
     border-radius: 10px;
 }
 
+/* .navbar {
+    position: fixed;
+    width: 100%;
+    width: 100%;
+    transform: 0.5s;
+}
+
+.navbar.sticky .logo {
+    transition: ease-in 0.5s;
+    height: 40px;
+    width: 100px;
+} */
+
 .navbar-nav > li {
     padding-left: 15px;
     padding-right: 15px;
