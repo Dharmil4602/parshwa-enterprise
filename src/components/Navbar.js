@@ -11,40 +11,38 @@ function Navbar() {
           <Link className="navbar-brand" to="/">
             <img className="logo" src={Logo} alt="" />
           </Link>
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          ></div>
-          <ul className="ul navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/products">
-                Products
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact Us
-              </Link>
-            </li>
-            <button className="btn btn-primary">
-              <a
-                href="tel:9082184650"
-                className="text-white text-decoration-none"
-              >
-                Call
-              </a>
-            </button>
-          </ul>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="ul navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/products">
+                  Products
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
+                  Contact Us
+                </Link>
+              </li>
+              <button className="btn btn-primary">
+                <a
+                  href="tel:9082184650"
+                  className="text-white text-decoration-none"
+                >
+                  Call
+                </a>
+              </button>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
