@@ -1,11 +1,14 @@
 import React from "react";
-import '../styles/contact.css'
+import "../styles/contact.css";
 
 function Contact() {
   return (
     <div className="container contact-form my-4">
       <h1>We would love to hear back from you</h1>
-      <form>
+      <form
+        action="https://send.pageclip.co/WtsYuUOFwq2KXLgdGZ4kXkl6vUZCsY0k"
+        method="post"
+      >
         <div className="mb-3 details">
           <label htmlFor="fname">First Name: </label>
           <input type="text" name="fname" id="" />
@@ -17,7 +20,9 @@ function Contact() {
           <input type="number" name="phone" id="" />
           <label htmlFor="message">Message</label>
           <textarea name="message" id="" cols="10" rows="5"></textarea>
-          <button className="btn btn-primary my-3">Submit</button>
+          <button type="submit" className="btn btn-primary my-3">
+            Submit
+          </button>
         </div>
       </form>
     </div>
