@@ -1,0 +1,12 @@
+.main {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/body-background.jpg') center right;
+    padding: 10% 5%;
+}
+
+.main h1 {
+    color: #fff;
+    width: 50%;
+    font-size: 55px;
+}

@@ -1,9 +1,11 @@
 import React from 'react'
+import "../styles/body.css";
+
 
 function Body() {
   return (
-    <div>
-      
+    <div className='main'>
+      <h1>Welcome to Parshwa Enterprises</h1>
     </div>
   );
 }

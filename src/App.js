@@ -17,7 +17,7 @@ function App() {
             exact
             path="/"
             element={
-              <div className="container">
+              <div>
                 <Body />
               </div>
             }
