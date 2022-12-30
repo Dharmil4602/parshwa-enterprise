@@ -17,6 +17,7 @@ function Contact() {
           <input type="number" name="phone" id="" />
           <label htmlFor="message">Message</label>
           <textarea name="message" id="" cols="10" rows="5"></textarea>
+          <button className="btn btn-primary my-3">Submit</button>
         </div>
       </form>
     </div>
