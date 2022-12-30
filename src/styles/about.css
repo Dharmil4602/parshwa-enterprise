@@ -1,0 +1,7 @@
+.about {
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(to left,rgba(0,0,0,.6), rgb(19, 0, 0));
+    color: #fff;
+    padding: 10% 5%;
+}

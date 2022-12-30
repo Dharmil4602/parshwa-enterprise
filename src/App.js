@@ -35,7 +35,7 @@ function App() {
             exact
             path="/about"
             element={
-              <div className="container">
+              <div>
                 <About />
               </div>
             }

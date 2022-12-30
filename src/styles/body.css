@@ -1,7 +1,7 @@
 .main {
     width: 100%;
     min-height: 80vh;
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/body-background.jpg') center right;
+    background: linear-gradient(to left,rgba(0,0,0,.6), rgb(19, 0, 0)), url('../images/body-background.jpg') center right;
     padding: 10% 5%;
 }
 

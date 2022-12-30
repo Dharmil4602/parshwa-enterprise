@@ -1,8 +1,10 @@
 import React from "react";
+import "../styles/about.css";
+
 
 function About() {
   return (
-    <div>
+    <div className="about">
       <h3 className="my-3">
         Parshwa Enterprises Pvt Ltd, is a leading supplier of infrared technology & industrial automation products in
         India. Our products find wide application in sectors such as
